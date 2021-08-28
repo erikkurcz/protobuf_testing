@@ -9,7 +9,7 @@ from python_src import addressbook_pb2 as ab
 
 
 def usage():
-    print("read_file.py FILENAME\n\nWhere FILENAME is a required name of file to read from")
+    print("read_addressbook.py FILENAME\n\nWhere FILENAME is a required name of file to read from")
 
 
 if __name__ == '__main__':
