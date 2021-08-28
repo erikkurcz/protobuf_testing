@@ -31,3 +31,43 @@ Usage: ./read_book ADDRESSBOOK_FILENAME
 
 Where ADDRESSBOOK_FILENAME is a required filename of an addressbook file
 ```
+
+### Example
+
+Write with python:
+```
+./write_addressbook.py ab1 5
+Person #78571 - rmvhnfmi nnyjutlruleosujptyxhhaqfr
+Person #10624 - hjaclhpb ybbxvqgxpladhitzpfntxed
+Person #5154 - nvwbi mhljskbwkomubz
+Person #1008 - qwgegggyjraellc yxvdegqcm
+Person #54553 - nteghaizmszs abpexhfivsrhwcbdxjeh
+```
+
+Read with cpp:
+```
+./read_book.tsk ab1
+Person #78571 - rmvhnfmi nnyjutlruleosujptyxhhaqfr
+Person #10624 - hjaclhpb ybbxvqgxpladhitzpfntxed
+Person #5154 - nvwbi mhljskbwkomubz
+Person #1008 - qwgegggyjraellc yxvdegqcm
+Person #54553 - nteghaizmszs abpexhfivsrhwcbdxjeh
+```
+
+Write with cpp:
+```
+./write_book.tsk ab2 4
+Person #22159 - uatyjrvqdd rgxvdichyakcsgwwuc
+Person #58008 - gwhfjybafg rlgprqtyqtjspqpontxljg
+Person #9283 - rrrtwynlfdd wyepvoklhacwvd
+Person #84554 - rxxlqqiprv dycixbnnyexmnapkyst
+```
+
+Read with python:
+```
+./read_addressbook.py ab2
+Person #22159 - uatyjrvqdd rgxvdichyakcsgwwuc
+Person #58008 - gwhfjybafg rlgprqtyqtjspqpontxljg
+Person #9283 - rrrtwynlfdd wyepvoklhacwvd
+Person #84554 - rxxlqqiprv dycixbnnyexmnapkyst
+```
